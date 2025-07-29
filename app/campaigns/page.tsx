@@ -36,6 +36,7 @@ import {
   Eye,
   MousePointer,
   DollarSign,
+  Megaphone,
 } from "lucide-react";
 
 interface Campaign {
