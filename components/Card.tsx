@@ -1,13 +1,13 @@
 "use client";
 
-import { DivideIcon as LucideIcon } from "lucide-react";
+import { DivideIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface CardProps {
   title: string;
   value: string;
   changePercent: string;
-  icon: LucideIcon;
+  icon: React.ComponentType<{ className?: string }>;
   isPositive: boolean;
 }
 
